@@ -22,3 +22,11 @@ function multiply(a, b) {
 function floorMod(a, n) {
     return ((a % n) + n) % n;
 }
+
+// Run this with Node
+console.log(floorMod(5, 2))
+console.log(double(2))
+console.log(square(2))
+console.log(isEven(2))
+console.log(isOdd(2))
+console.log(multiply(2, 3))
